@@ -1,5 +1,8 @@
-import {List, Map, fromJS} from 'immutable';
+import {Immutable, List, Map, fromJS} from 'immutable';
 import {expect} from 'chai';
+import chai from 'chai';
+import chaiImmutable from 'chai-immutable';
+chai.use(chaiImmutable);
 
 import reducer from '../src/reducer';
 
